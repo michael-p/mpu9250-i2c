@@ -206,8 +206,6 @@ where
     // define accel range
     self.set_full_scale_accel_range(mpu9250::AccelConfig::ACCEL_FS_SEL_2g)?;
 
-    self.enable_magnetometer()?;
-
     Ok(())
   }
 
